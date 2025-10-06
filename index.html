@@ -1,0 +1,144 @@
+<!DOCTYPE html> <!-- Задать стандарт HTML5 -->
+<html lang="ru"> <!-- Задать язык страницы -->
+    <head>
+        <title>iSpring - Российский продукт №1 для онлайн-обучения</title> <!-- Задать заголовок вкладки браузера -->
+        <meta charset="utf-8"> <!-- Задать кодировку символов -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Настроить правильное отображение содержимого -->
+        <meta name="description" content="Это страница об IT-компании iSpring"> <!-- Информация о сайте для поисковых систем -->
+        <link rel="shortcut icon" type="image/x-icon" href="resources/ispring_logo.png"> <!-- Установить иконку для вкладки браузера -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet"> <!-- Подключить CSS-модули фреймворка Bootstrap -->
+        <script src="bootstrap/js/bootstrap.js"></script> <!-- Подключить JS-модули фреймворка Bootstrap -->
+    </head>
+
+    <body>
+        <header> <!-- Шапка сайта -->
+            <nav class="navbar navbar-expand-lg mt-2"> <!-- Контейнер для навигационной панели -->
+                <div class="container-fluid"> <!-- Контейнер, который расширяется на весь экран -->
+                    <a class="navbar-brand ms-5 link-dark fw-bold fs-4" href="https://www.ispring.ru/">
+                        <img src="resources/ispring_logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top me-2">
+                        ispring
+                    </a> <!-- Название компании и её логотип -->
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Переключатель навигации">
+                        <img src="resources/navigation.png" alt="Кнопка для раскрытия меню" width="22" height="20"> <!-- Изображение -->
+                    </button> <!-- "Бургер для мобильных устройств" -->
+
+                    <div class="collapse navbar-collapse pt-1" id="navbar-content"> <!-- Контейнер -->
+                        <div class="navbar-nav"> <!-- Контейнер -->
+                            <a class="nav-link link-secondary" href="#about-company">О компании</a> <!-- Ссылка 1 -->
+                            <a class="nav-link link-secondary" href="#services">Услуги</a> <!-- Ссылка 2 -->
+                            <a class="nav-link link-secondary" href="#contacts">Контакты</a> <!-- Ссылка 3 -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <img src="resources/ispring_header_img.jpeg" alt="iSpring" class="img-fluid"> <!-- Изображение -->
+        </header>
+
+        <main class="container"> <!-- Основное содержимое сайта -->
+            <section id="about-company">
+                <h2 class="pt-4 fw-bold ps-2">О нашей компании</h2> <!-- Заголовок уровня 2 -->
+
+                <div class="row"> <!-- Строка -->
+                    <div class="col-sm-4"> <!-- Столбец 1 -->
+                        <img src="resources/ispring.webp" alt="" class="img-fluid border border-2 rounded-pill" width="600" height="300"> <!-- Изображение -->
+                    </div>
+
+                    <div class="col-sm-8"> <!-- Столбец 2 -->
+                        <p class="pt-4 ps-3"><b>iSpring</b> — российская компания, которая разрабатывает технологии дистанционного
+                            обучения для организаций. Появилась в 2001 году в Йошкар-Оле, Марий Эл. Основные продукты: <b>
+                                iSpring Learn </b>, платформа для корпоративного обучения, и <b>iSpring Suite</b>, инструмент для
+                            создания интерактивных онлайн-курсов, тестов и прочих материалов. Также использует бренд
+                            <b>iSpring Solutions</b>.</p> <!-- Абзац -->
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="services">
+                <h2 class="pt-5 text-center fw-bold">Инструменты iSpring для автоматизации ключевых бизнес-процессов</h2> <!-- Заголовок уровня 2 -->
+
+                <div class="row"> <!-- Строка 1 -->
+                    <div class="col-sm pt-4"> <!-- Столбец 1 -->
+                        <div class="card bg-success bg-opacity-25 p-2 shadow"> <!-- Контейнер для содержимого карточки -->
+                            <img src="resources/ispring_learn.png" alt="ispring learn" width="400" height="200"> <!-- Изображение карточки -->
+
+                            <div class="card-body"> <!-- Тело карточки -->
+                                <h5 class="fw-bold">Платформа для корпоративного онлайн-обучения</h5> <!-- Заголовок карточки -->
+
+                                <p>Создайте систему адаптации, обучения и развития персонала</p> <!-- Абзац -->
+
+                                <a href="https://www.ispring.ru/ispring-learn/get-free-trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm pt-4"> <!-- Столбец 2 -->
+                        <div class="card bg-danger bg-opacity-25 p-2 shadow"> <!-- Контейнер для содержимого карточки -->
+                            <img src="resources/ispring_suite.png" alt="ispring suite" width="400" height="200"> <!-- Изображение карточки -->
+
+                            <div class="card-body"> <!-- Тело карточки -->
+                                <h5 class="fw-bold">Быстрый и мощный конструктор курсов и тестов</h5> <!-- Заголовок карточки -->
+
+                                <p>Создавайте интерактивные курсы и проверяйте знания сотрудников</p> <!-- Абзац -->
+
+                                <a href="https://www.ispring.ru/ispring-suite/trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm pt-4"> <!-- Столбец 3 -->
+                        <div class="card bg-primary bg-opacity-50 p-2 shadow"> <!-- Контейнер для содержимого карточки -->
+                            <img src="resources/ispring_cloud.png" alt="ispring cloud" width="385" height="200"> <!-- Изображение карточки -->
+
+                            <div class="card-body"> <!-- Тело карточки -->
+                                <h5 class="fw-bold">Облачный конструктор курсов, лонгридов, тестов</h5> <!-- Заголовок карточки -->
+
+                                <p>Создавайте учебные материалы в браузере без навыков дизайна и вёрстки</p> <!-- Абзац -->
+
+                                <a href="https://www.ispring.ru/ispring-cloud/trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="container"> <!-- Нижняя часть сайта -->
+            <section id="contacts"> <!-- Раздел с контактами -->
+                <hr> <!-- Линия-разделитель -->
+
+                <a class="navbar-brand ms-5 link-dark fw-bold fs-4" href="https://www.ispring.ru/">
+                    <img src="resources/ispring_logo.png" alt="ispring" width="30" height="30" class="d-inline-block align-text-top me-2">
+                    ispring
+                </a> <!-- Ссылка -->
+
+                <div class="row"> <!-- Строка 1 -->
+                    <div class="col-sm-3"> <!-- Столбец 1 -->
+                        <p class="ps-5 py-3">424000, Россия, Республика Марий Эл, г. Йошкар-Ола, ул. Вознесенская, 110 </p> <!-- Абзац -->
+                    </div>
+
+                    <div class="col-sm-2 pt-3 ps-5"> <!-- Столбец 2 -->
+                        <div> <!-- Контейнер для контактной информации -->
+                            <p>8 800 333 78 73</p> <!-- Абзац -->
+                            <p>sales@ispring.ru</p> <!-- Абзац -->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-7 pt-5"> <!-- Столбец 3 -->
+                        <div> <!-- Контейнер для ссылок -->
+                            <a href="https://t.me/iSpring_chatbot?start=infor_site" class="pe-2"> <!-- Ссылка на канал Telegram -->
+                                <img src="resources/telegram.webp" alt="Канал Telegram" width="30" height="30"> <!-- Изображение -->
+                            </a>
+
+                            <a href="https://vk.ru/ispring_ru"> <!-- Ссылка на сообщество ВК -->
+                                <img src="resources/vk.jpg" alt="Сообщество ВК" width="30" height="30"> <!-- Изображение -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
