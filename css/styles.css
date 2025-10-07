@@ -18,3 +18,8 @@
     color: white;           /* Белый цвет текста */
     border-color: transparent !important; /* Прозрачная граница */
 }
+
+/* Стиль для пунктов nav-link при наведении */
+.nav-link:hover {
+    color: black; /* Черный цвет текста */
+}
