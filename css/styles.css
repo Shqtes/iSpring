@@ -1,0 +1,20 @@
+/* Стили для кнопки "Узнать больше" при наведении */
+.btn-ispring-learn-hover:hover {
+    background: #2AA85F;    /* Зеленый цвет фона */
+    color: white;           /* Белый цвет текста */
+    border-color: transparent !important; /* Прозрачная граница */
+}
+
+/* Стили для кнопки "iSpring Suite" при наведении */
+.btn-ispring-suite-hover:hover {
+    background: #B40043;    /* Бордовый цвет фона */
+    color: white;           /* Белый цвет текста */
+    border-color: transparent !important; /* Прозрачная граница */
+}
+
+/* Стили для кнопки "iSpring Cloud" при наведении */
+.btn-ispring-cloud-hover:hover {
+    background: cornflowerblue; /* Голубой цвет фона */
+    color: white;           /* Белый цвет текста */
+    border-color: transparent !important; /* Прозрачная граница */
+}

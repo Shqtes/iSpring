@@ -7,6 +7,7 @@
         <meta name="description" content="Это страница об IT-компании iSpring"> <!-- Информация о сайте для поисковых систем -->
         <link rel="shortcut icon" type="image/x-icon" href="resources/ispring_logo.png"> <!-- Установить иконку для вкладки браузера -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet"> <!-- Подключить CSS-модули фреймворка Bootstrap -->
+        <link href="css/styles.css" rel="stylesheet"> <!-- Подключить CSS-файл -->
         <script src="bootstrap/js/bootstrap.js"></script> <!-- Подключить JS-модули фреймворка Bootstrap -->
     </head>
 
@@ -60,7 +61,7 @@
                 <h2 class="pt-5 text-center fw-bold">Инструменты iSpring для автоматизации ключевых бизнес-процессов</h2> <!-- Заголовок уровня 2 -->
 
                 <div class="row"> <!-- Строка 1 -->
-                    <div class="col-sm pt-4"> <!-- Столбец 1 -->
+                    <div class="col-lg-4 col-md-6 pt-4"> <!-- Столбец 1 -->
                         <div class="card bg-success bg-opacity-25 p-2 shadow"> <!-- Контейнер для содержимого карточки -->
                             <img src="resources/ispring_learn.png" alt="ispring learn" class="img-fluid"> <!-- Изображение карточки -->
 
@@ -69,12 +70,12 @@
 
                                 <p>Создайте систему адаптации, обучения и развития персонала</p> <!-- Абзац -->
 
-                                <a href="https://www.ispring.ru/ispring-learn/get-free-trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
+                                <a href="https://www.ispring.ru/ispring-learn/get-free-trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3 btn-ispring-learn-hover">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm pt-4"> <!-- Столбец 2 -->
+                    <div class="col-lg-4 col-md-6 pt-4"> <!-- Столбец 2 -->
                         <div class="card bg-danger bg-opacity-25 p-2 shadow"> <!-- Контейнер для содержимого карточки -->
                             <img src="resources/ispring_suite.png" alt="ispring suite" class="img-fluid"> <!-- Изображение карточки -->
 
@@ -83,12 +84,12 @@
 
                                 <p>Создавайте интерактивные курсы и проверяйте знания сотрудников</p> <!-- Абзац -->
 
-                                <a href="https://www.ispring.ru/ispring-suite/trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
+                                <a href="https://www.ispring.ru/ispring-suite/trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3 btn-ispring-suite-hover">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm pt-4"> <!-- Столбец 3 -->
+                    <div class="col-lg-4 col-md-6 pt-4"> <!-- Столбец 3 -->
                         <div class="card bg-primary bg-opacity-50 p-2 shadow"> <!-- Контейнер для содержимого карточки -->
                             <img src="resources/ispring_cloud.png" alt="ispring cloud" class="img-fluid"> <!-- Изображение карточки -->
 
@@ -97,7 +98,7 @@
 
                                 <p>Создавайте учебные материалы в браузере без навыков дизайна и вёрстки</p> <!-- Абзац -->
 
-                                <a href="https://www.ispring.ru/ispring-cloud/trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
+                                <a href="https://www.ispring.ru/ispring-cloud/trial" class="btn btn-transparent border-dark border-1 rounded-pill p-3 btn-ispring-cloud-hover">Попробовать бесплатно</a> <!-- Ссылка в виде кнопки -->
                             </div>
                         </div>
                     </div>
@@ -115,18 +116,17 @@
                 </a> <!-- Ссылка -->
 
                 <div class="row"> <!-- Строка 1 -->
-                    <div class="col-sm-3"> <!-- Столбец 1 -->
+                    <div class="col-sm-5"> <!-- Столбец 1 -->
                         <p class="py-3">424000, Россия, Республика Марий Эл, г. Йошкар-Ола, ул. Вознесенская, 110 </p> <!-- Абзац -->
                     </div>
 
-                    <div class="col-sm-3 pt-3"> <!-- Столбец 2 -->
-                        <div> <!-- Контейнер для контактной информации -->
-                            <p>8 800 333 78 73</p> <!-- Абзац -->
-                            <p>sales@ispring.ru</p> <!-- Абзац -->
+                    <div class="col-sm-2 pt-3"> <!-- Столбец 2 -->
+                        <div class="row"> <!-- Контейнер для контактной информации -->
+                            <p class="text-break">8 800 333 78 73 sales@ispring.ru</p> <!-- Абзац -->
                         </div>
                     </div>
 
-                    <div class="col-sm-6 pt-5"> <!-- Столбец 3 -->
+                    <div class="col-sm-3 pt-4"> <!-- Столбец 3 -->
                         <div> <!-- Контейнер для ссылок -->
                             <a href="https://t.me/iSpring_chatbot?start=infor_site" class="pe-2"> <!-- Ссылка на канал Telegram -->
                                 <img src="resources/telegram.webp" alt="Канал Telegram" width="30" height="30"> <!-- Изображение -->
@@ -136,6 +136,10 @@
                                 <img src="resources/vk.jpg" alt="Сообщество ВК" width="30" height="30"> <!-- Изображение -->
                             </a>
                         </div>
+                    </div>
+
+                    <div class="col-sm-2 pt-3"> <!-- Столбец 4 -->
+                        <p class="text-break">Курчин Михаил ТИП-51 <abbr class="text-primary">@shqtes</abbr></p> <!-- Абзац -->
                     </div>
                 </div>
             </section>
